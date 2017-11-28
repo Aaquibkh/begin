@@ -5,3 +5,9 @@ class ApplicationController < ActionController::Base
   end
 
  end
+
+class Word
+   def palind(string)
+     string == string.reverse
+   end
+ end
